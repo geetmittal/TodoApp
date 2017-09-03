@@ -1,0 +1,58 @@
+body {
+    margin: auto;
+    width: 60%;
+    padding: 10px;
+}
+
+h1 {
+    background-color: beige;
+    text-align: center;
+    height: 60px;
+    width: 100%;
+    margin: auto;
+}
+
+#todos_list_div {
+    /* text-align: center;*/
+    margin: 15px;
+    color: blue;
+    /*padding: 50px 20px 0px 20px;*/
+}
+
+#addTodo {
+    margin: auto;
+    text-align: center;
+    padding: 5px;
+}
+
+#addTodo > button {
+    background-color: lightblue;
+    border: none;
+}
+
+.deletebutton {
+    background-color: transparent;
+    border: none;
+    color: red;
+    margin: 10px;
+}
+
+#completeTodos {
+    color: green;
+    text-decoration: line-through;
+    margin: 15px;
+}
+
+#deletedTodos {
+    color: red;
+    text-decoration: line-through;
+    margin: 15px;
+}
+
+.test {
+    background-color: aliceblue;
+    padding-left: 40%;
+    /*position: relative;
+    left: 35%;
+*/
+}
